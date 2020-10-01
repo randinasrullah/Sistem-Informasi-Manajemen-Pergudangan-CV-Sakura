@@ -1,0 +1,189 @@
+/*membuat 2 css (desktop dan Mobile)*/
+/*CSS spesifik ke Mobile*/
+nav.navbar.navbar-default {
+    background: url("../images/b2.jpg");
+	background-size: cover;
+}
+
+nav.navbar-default.navbar-side{
+	background: url("../images/b2.jpg");
+	background-size: cover;
+	min-height: 1050px;
+}
+/*div#page-inner {
+ background: url("../images/bc1.jpg");
+ background-size: cover;
+}*/
+
+h2.text-center {
+    font-family: none;
+}
+body
+{
+
+font-family: 'Open Sans', sans-serif;
+}
+#wrapper
+{
+	width: 100%;
+	/*background: url("../images/b2.jpg");
+	background-size: cover;*/
+	background-color: #0c0c0c;
+}
+.navbar
+{
+	margin-bottom: 0px;
+}
+/*navbar atas*/
+.navbar-default
+{
+	background-color: #337ab7;
+	border-color: #383737;
+}
+.navbar-default .navbar-brand
+{
+	color: #f4f4f4;
+}
+.navbar-default .navbar-brand:hover
+{
+	color: #f4f4f4;
+}
+.navbar-default .navbar-brand:visited
+{
+	color: #f4f4f4;
+}
+.navbar-default .navbar-toggle .icon-bar
+{
+	background-color: #f4f4f4;
+}
+
+
+/*User pada Navbar Side*/
+.navbar-side .user
+{
+	padding: 20px;
+	text-align: center;
+}
+.navbar-side .user img
+{
+	margin-bottom: 7px;
+	width: 45%;
+}
+.navbar-side .user h3
+{
+	color: #f4f4f4;
+	font-size: 14px;
+	font-weight: 600;
+}
+.navbar-side .user p
+{
+	color: #f2f2f2;
+	font-size: 19px;
+	font-family: none;
+}
+.navbar-side 
+{
+	background: #202020;
+}
+
+.navbar-side ul li
+{
+	border-bottom: 1px solid rgba(107, 108. 109, 0.19);
+}
+
+.navbar-side ul li a 
+{
+	color: #fff;
+}
+
+.navbar-side ul li a:hover
+{
+	color: #202020;
+}
+
+.navbar-side ul li a:focus
+{
+	color: #202020;
+}
+
+.navbar-side .tr-tree > .tr-tree-menu 
+{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	display: none;
+}
+
+.navbar-side .tr-tree > .tr-tree-menu li a
+{
+	padding: 10px;
+	display: block;
+	font-size: 13px;
+}
+.navbar-side .tr-tree > .tr-tree-menu li a:hover
+{
+	background: #f4f4f4;
+	text-decoration: none;
+}
+.navbar-side .tr-tree > .tr-tree-menu li.active a
+{
+	background: #f9f9f9;
+	color: #222;
+	font-weight: bold;
+}
+#page-wrapper
+{
+	padding: 15px;
+	background: #f3f3f3;
+}
+#page-inner
+{
+	background: #fff;
+	padding: 15px;
+	min-height: 1000px;
+}
+
+/*CSS spesifik ke Desktop*/
+
+@media (min-width: 768px)
+{
+	#page-wrapper
+	{
+		margin: 0 0 0 260px;
+		padding: 15px;
+		min-height: 1000px;
+	}
+
+	.navbar-side
+	{
+		width: 260px;
+		position: absolute;
+		z-index: 1;
+		min-height: 1000px;
+	}
+	a.btn.btn-primary {
+    margin-bottom: 5px;
+}
+.panel-body {
+    padding: 15px;
+}
+
+h2.judul {
+    font-family: initial;
+    font-weight: 1000;
+}
+img {
+    margin-top: 20px;
+}
+
+}
+a.btn.btn-primary {
+    margin-left: 636px;
+    margin-bottom: 0px;
+}
+nav.navbar.navbar-default {
+    min-height: 76px;
+}
+p.keterangan {
+    margin-top: 6px;
+}
